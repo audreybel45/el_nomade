@@ -1,0 +1,41 @@
+:root {
+  /* Colores a usar --- primera paleta */
+  --color-azul-marino: #36688d;
+  --color-amarillo-oro: #f3cd05;
+  --color-naranja-dorado: #f49f05;
+  --color-naranja-oscuro: #f18904;
+  --color-marron-grisaceo: #bda589;
+
+  /* Colores a usar --- Segunda paleta */
+
+  --color-azul-brillante: #007bff;
+  --color-gris-acero: #6c757d;
+  --color-verde-bosque: #28a745;
+  --color-amarillo-brillante: #ffc107;
+
+  /* Colores a usar --- Tercera paleta  paleta */
+
+  --color-gris-claro: #f8f9fa;
+  --color-verde-menta: #9addbe;
+  --color-gris-pizzara: #343a40;
+
+  /* Tamaños de fuente */
+
+  --tamano-fuente-24: 24px;
+  --tamano-fuente-20: 20px;
+  --tamano-fuente-16: 16px;
+  --tamano-fuente-14: 14px;
+  --tamano-fuente-10: 10px;
+  --tamano-fuente-8: 8px;
+
+  /* Espaciados */
+  --espaciado-pequeno: 5px; /* Espaciado pequeño */
+  --espaciado-medio: 10px; /* Espaciado medio */
+  --espaciado-grande: 20px; /* Espaciado grande */
+  --espaciado-xgrande: 30px; /* Espaciado grande */
+
+  /* Márgenes */
+  --margen-superior: 10px; /* Margen superior */
+  --margen-inferior: 10px; /* Margen inferior */
+  --margen-horizontal: 20px; /* Margen horizontal */
+}

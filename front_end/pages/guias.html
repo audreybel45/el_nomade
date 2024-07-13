@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome CSS --> 
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/guias.js" type="module"></script>
+  <title>Turismo ─ Guías Turísticos</title>
+</head>
+<body class="guias-turisticos">
+  <header>
+    <div class="contenedor-imagen-header">
+      <img src="../assets/images/icon/logo.png" alt="Logo de la Pagina">
+    </div>
+    <label class="header-icono-hamburguesa" for="header-menu-hamburguesa"><img src="../assets/images/icon/menu.png" alt="Icono Menu Hamburguesa"></label>
+    <input type="checkbox" id="header-menu-hamburguesa">
+    <nav class="contenedor-link-header">
+      <ul>
+        <li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="./turismo.html"><i class="fas fa-map-marked-alt"></i> Turismo</a></li>
+        <li><a href="./restaurantes.html"><i class="fas fa-utensils"></i> Restaurantes</a></li>
+        <li><a href="./guias.html"><i class="fas fa-users"></i> Guias</a></li>
+        <li><a href="./acceder.html"><i class="fas fa-sign-in-alt"></i> Acceder</a></li>
+        <li><a href="./registrar.html"><i class="fas fa-user-plus"></i> Registrar</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+        <h1>Bienvenido a nuestra página de guías turísticas</h1>
+        <form id="filtro-guias">
+          <div>
+            <label for="ubicacion">Ubicación:</label>
+            <select id="ubicacion">
+              <option value="todas">Todas</option>
+              <option value="buenos-aires">Buenos Aires</option>
+              <option value="ciudad autónoma de buenos aires">Ciudad Autónoma de Buenos Aires</option>
+              <option value="catamarca">Catamarca</option>
+              <option value="chaco">Chaco</option>
+              <option value="chubut">Chubut</option>
+              <option value="córdoba">Córdoba</option>
+              <option value="corrientes">Corrientes</option>
+              <option value="entre ríos">Entre Ríos</option>
+              <option value="formosa">Formosa</option>
+              <option value="jujuy">Jujuy</option>
+              <option value="la pampa">La Pampa</option>
+              <option value="la rioja">La Rioja></option>
+              <option value="san luis">Buenos Aires</option>
+              <option value="mendoza">Mendoza</option>
+              <option value="misiones">Misiones</option>
+              <option value="neuquén">Neuquén</option>
+              <option value="río negro">Río Negro</option>
+              <option value="salta">Salta</option>
+              <option value="san juan">San Juan</option>
+              <option value="san luis">San Luis</option>
+              <option value="santa fe">Santa Fe</option>
+              <option value="santiago del estero">Santiago del Estero</option>
+              <option value="tierra del fuego, antártida e islas del atlántico sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+              <option value="tucumán">Tucumán</option>
+          </select>
+        </div>
+        <div>
+          <label for="servicios">Servicios:</label>
+          <select id="servicios">
+            <option value="todos">Todos</option>
+            <option value="recepcion">Recepción de Visitantes</option>
+            <option value="itinerario">Organización de Itinerario</option>
+            <option value="explicacion">Explicación y Orientación</option>
+          </select>
+        </div>
+        <div>
+          <label for="precio">Precio:</label>
+          <select id="precio">
+            <option value="todos">Todos</option>
+            <option value="bajo">Bajo</option>
+            <option value="medio">Medio</option>
+            <option value="alto">Alto</option>
+          </select>
+        </div>
+        <div>
+          <label for="idiomas">Idiomas:</label>
+          <select id="idiomas">
+            <option value="todos">Todos</option>
+            <option value="espanol">Español</option>
+            <option value="ingles">Inglés</option>
+            <option value="portugues">Portugués</option>
+          </select>
+        </div>
+        <button type="button" id="filtrar">Filtrar</button>
+      </form>
+    </section>
+    <section>
+      <h1>Guías Turísticos</h1>
+      <div id="contenedor-guias">
+        <!-- Aquí se mostrarán las guías filtradas -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="mensaje"></div> <!-- Contenedor para el mensaje -->
+    <div class="footer-primer-contenedor">
+      <img src="../assets/images/icon/logo.png" alt="Logo de la pagina">
+      <form id="form-subscribete">
+        <input type="email" id="footer-text-subscribir" name="subcribete" placeholder="Correo Electronico" required>
+        <button type="button" id="footer-boton-suscriptor">Subcribirse</button>
+      </form>
+    </div>
+    <div class="footer-segundo-contenedor">
+      <h4>Contacto</h4>
+      <ul class="footer-contacto">
+        <li><a href="https://wa.me/543885273263" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/whatsapp.png" alt="WhatsApp"> +543885273263</a></li>
+        <li><a href="mailto:bdidominguez@gmail.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/gmail.png" alt="Correo"> bdidominguez@gmail.com</a></li>
+      </ul>
+      <h4>Redes Sociales</h4>
+      <ul class="footer-redes-sociales">
+        <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/youtube.png" alt="YouTube"></a></li>
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/facebook.png" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/icon/instagram.png" alt="Instagram"></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+</body>
+</html>

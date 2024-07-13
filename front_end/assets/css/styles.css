@@ -1,0 +1,40 @@
+@import "../../styles/theme/variables.css";
+@import "../../styles/layout/structure.css";
+@import "../../styles/components/header.css";
+@import "../../styles/components/footer.css";
+@import "./index.css"; 
+@import "./registrar.css";
+@import "./turismo_styles.css"; 
+@import "./enconstruccion.css";
+@import "./restaurantes.css";
+@import "./guias_style.css";
+@import "./acceder_style.css";
+
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-naranja-dorado);
+  z-index: -1;
+}
+
+
+/* Estilos para pantallas grandes (mayores a 992px) */
+@media only screen and (min-width: 992px) {
+    /* Agrega tus estilos para pantallas grandes aquí */
+  }
+  
+  /* Estilos para tabletas (entre 768px y 991px) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Agrega tus estilos para tabletas aquí */
+  }
+  
+  /* Estilos para celulares (menores a 767px) */
+  @media only screen and (max-width: 767px) {
+    /* Agrega tus estilos para celulares aquí */
+  }
+  

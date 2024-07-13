@@ -1,0 +1,31 @@
+el_nomade/
+│
+├── el_nomade/               # Directorio del proyecto Django
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│
+├── punto_turistico/         # Carpeta de la aplicación
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── venv/                    # Entorno virtual
+├── crear_db.py
+├── crud_punto_turistico.py
+├── modificar_tabla.py
+├── docker-compose.yml
+├── Dockerfile
+└── frontend/                # Carpeta del frontend
+    ├── index.html
+    ├── script.js
+    ├── styles.css
+    └── ...

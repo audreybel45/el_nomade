@@ -1,0 +1,81 @@
+/* Encapsulado del CSS dentro de la clase .turismo-formulario */
+.turismo-formulario body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #82baee;
+}
+
+.turismo-formulario .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.turismo-formulario h1 {
+    text-align: center;
+    color: #333;
+}
+
+.turismo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Alineación de texto a la derecha */
+}
+
+.turismo-formulario input[type="text"],
+.turismo-formulario textarea,
+.turismo-formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.turismo-formulario input[type="text"]:focus,
+.turismo-formulario textarea:focus,
+.turismo-formulario button:focus {
+    outline: none;
+    border-color: #26a69a;
+}
+
+.turismo-formulario button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.turismo-formulario button:hover {
+    background-color: #45a049;
+}
+
+.turismo-formulario button:active {
+    background-color: #3e8e41;
+}
+
+/* Estilos específicos para el formulario */
+.turismo-formulario #formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.turismo-formulario #formulario label {
+    width: 100%;
+}
+
+.turismo-formulario #formulario input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+.turismo-formulario #formulario input[type="file"]:focus {
+    outline: none;
+}
